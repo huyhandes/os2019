@@ -1,0 +1,21 @@
+hello world
+Changing password for huyhandes.
+(current) UNIX password: 
+Mon Apr  1 10:20:06 +07 2019
+x86_64
+Linux HANDES 4.15.0-46-generic #49-Ubuntu SMP Wed Feb 6 09:33:07 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux
+[ 5542.353691] [UFW BLOCK] IN=wlp8s0 OUT= MAC=01:00:5e:00:00:fb:cc:2d:b7:9c:a9:0b:08:00 SRC=192.168.11.106 DST=224.0.0.251 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=44460 PROTO=2 
+[ 5552.882103] [UFW BLOCK] IN=wlp8s0 OUT= MAC=01:00:5e:00:00:fb:f0:f6:1c:77:3c:b1:08:00 SRC=192.168.11.182 DST=224.0.0.251 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=32343 PROTO=2 
+[ 5559.346711] [UFW BLOCK] IN=wlp8s0 OUT= MAC=33:33:00:00:00:01:78:8a:20:53:88:bb:86:dd SRC=fe80:0000:0000:0000:7a8a:20ff:fe53:88bb DST=ff02:0000:0000:0000:0000:0000:0000:0001 LEN=196 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=UDP SPT=59822 DPT=10001 LEN=156 
+10:31:17 up  1:43,  1 user,  load average: 0.16, 0.09, 0.14
+huyhandes
+huyhandes :0           2019-04-01 08:49 (:0)
+uid=1000(huyhandes) gid=1000(huyhandes) groups=1000(huyhandes),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),116(lpadmin),126(sambashare)
+wtmp begins Mon Apr  1 08:53:58 2019
+Command 'finger' not found, but can be installed with:
+
+sudo apt install finger
+ 10:33:02 up  1:44,  1 user,  load average: 0.43, 0.21, 0.18
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+huyhande :0       :0               08:49   ?xdm?   1:31   0.00s /usr/lib/gdm3/g
+
