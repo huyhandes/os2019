@@ -1,0 +1,11 @@
+handes@HANDES:~$ ls -la | grep list
+handes@HANDES:~$ wc -l /etc/passwd
+42 /etc/passwd
+handes@HANDES:~$ free
+              total
+Mem:        3944872
+handes@HANDES:~$ cat /proc/cpuinfo | grep processor | wc -l
+4
+handes@HANDES:/usr/share/backgrounds/linuxmint-tara$ find -name "*.jpg" | wc -l
+22
+
