@@ -1,0 +1,25 @@
+handes@HANDES:~$ ps man
+  PID TTY      STAT   TIME COMMAND
+  998 tty7     -      1:16 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/ru
+    - -        Ssl+   1:08 -
+    - -        Ssl+   0:00 -
+    - -        Ssl+   0:00 -
+    - -        Ssl+   0:07 -
+ 1074 tty1     -      0:00 /sbin/agetty -o -p -- \u --noclear tty1 linux
+    - -        Ss+    0:00 -
+ 4617 pts/0    -      0:00 bash
+    - -        Ss     0:00 -
+ 4632 pts/0    -      0:00 ps man
+    - -        R+     0:00 -
+
+handes@HANDES:~$ ps man | grep gnome-calculator
+ 4650 pts/1    -      0:00 gnome-calculator
+ 4660 pts/0    -      0:00 grep --color=auto gnome-calculator
+handes@HANDES:~$ cat /proc/4650/status
+State:	S (sleeping)
+handes@HANDES:~$ kill -s STOP 4650
+handes@HANDES:~$ kill -s CONT 4650
+handes@HANDES:~$ kill -s KILL 4650
+
+
+
