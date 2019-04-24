@@ -1,0 +1,12 @@
+handes@HANDES:~$ grep systemd /proc/sched_debug
+ Ssystemd-resolve  9578        20.879511       137   120         0.000000        67.944113         0.000000 0 0 /autogroup-160
+ S        systemd  1248        40.411165       145   120         0.000000        69.003335         0.000000 0 0 /autogroup-91
+ Ssystemd-timesyn  9583        12.874157        34   120         0.000000        42.654868         0.000000 0 0 /autogroup-161
+ S        systemd     1      1012.210722      2553   120         0.000000      2501.637584         0.000000 0 0 /autogroup-2
+ Ssystemd-journal  9587        27.019173       409   119         0.000000       110.319591         0.000000 0 0 /autogroup-162
+ S  systemd-udevd  9984         1.053072        16   120         0.000000        20.960939         0.000000 0 0 /autogroup-172
+ S systemd-logind   877       151.305990     14002   120         0.000000       414.832024         0.000000 0 0 /autogroup-58
+handes@HANDES:~$ grep switch /proc/1/sched
+nr_switches                                  :                 2562
+nr_voluntary_switches                        :                 2077
+nr_involuntary_switches                      :                  485
