@@ -5,8 +5,8 @@ handes@HANDES:~$ free
               total        used        free      shared  buff/cache   available
 Mem:        3944872     1159404     1502280      129376     1283188     2403716
 Swap:       8000508           0     8000508
-handes@HANDES:~$ nano /proc/cpuinfo
-4 logical cores have been shown.
+handes@HANDES:~$ cat /proc/cpuinfo | grep processor | wc -l
+4
 handes@HANDES:/usr/share/backgrounds/linuxmint-tara$ find -name "*.jpg" | wc -l
 22
 
