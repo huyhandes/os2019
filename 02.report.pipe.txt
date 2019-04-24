@@ -1,9 +1,10 @@
 handes@HANDES:~$ ls -la | grep list
 handes@HANDES:~$ wc -l /etc/passwd
 42 /etc/passwd
-handes@HANDES:~$ free
-              total
-Mem:        3944872
+handes@HANDES:~/Documents/OS$ free
+              total        used        free      shared  buff/cache   available
+Mem:        3944872     1618036      109448      203144     2217388     1852824
+Swap:       8000508           0     8000508
 handes@HANDES:~$ cat /proc/cpuinfo | grep processor | wc -l
 4
 handes@HANDES:/usr/share/backgrounds/linuxmint-tara$ find -name "*.jpg" | wc -l
