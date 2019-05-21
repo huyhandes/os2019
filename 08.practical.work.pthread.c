@@ -61,12 +61,12 @@ void *consumer(void *para) {
 int main() {
 	pthread_t tid1,tid2;
 	pthread_create(&tid1, NULL, producer, NULL);
-	pthread_join(tid1, NULL);
  	pthread_create(&tid2, NULL, consumer, NULL);
-	pthread_join(tid2, NULL);
-
         printf("After produce: First: %d Last %d \n", first, last);
         consume();
         printf("After consume: First: %d Last %d \n", first, last);
+
+    pthread_join(tid1, NULL);
+    pthread_join(tid2, NULL);
 	return 0;
 }
